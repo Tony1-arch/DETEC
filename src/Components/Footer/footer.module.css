@@ -1,0 +1,1129 @@
+@media(min-width:1200px) and (max-width:1600px){
+      a:hover, a:visited, a:hover, a:link {
+            color: rgba(255, 255, 255, 0.6);
+          }
+      .container{
+            
+            padding:40px 100px 40px 100px;
+            display: grid;
+            max-height:100vh ;
+            max-width: 100%;
+            gap: 4rem;
+            place-content: flex-start;
+            align-items: flex-start;
+            grid-template-columns: 1fr  1fr 1fr 1fr;
+            background-color: rgb(5, 19, 43);
+
+      } 
+      .info{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content:flex-start;
+            padding: 10px 0px;
+      }
+      .info h2{
+            font-size: 0.89rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .info p{
+            font-size: 0.78rem;
+            text-align:left;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .add{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 10px 0px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content:flex-start;
+      
+      }
+      .add h2{
+            font-size: 0.9rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .add p{
+            font-size: 0.78rem;
+            text-align: cente;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .contacts{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content:flex-start;
+            
+      }
+      .contacts h2{
+            font-size: 0.9rem;
+            text-align:left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+            
+      }
+      .contacts p{
+            font-size: 0.78rem;
+            padding: 5px 0px;
+            text-align: left;
+            color: #5E99D6;
+      }
+      .contacts label{
+            font-size: 0.9rem;
+            text-align: left;
+      }
+      .register {
+      
+            
+            display: flex;
+            padding: 10px 0px;
+            justify-content: flex-start;
+            align-items:flex-start;
+          }
+          span{
+            font-size: 10px;
+            color: transparent;
+          }
+          
+          .field {
+            width: 140px;
+            height: 30px;
+            position: relative;
+          }
+          .field input {
+            width: 100%;
+            border-radius: 6px;
+            height: 20px;
+            border: 0;
+           
+            padding: 10px 0 0 6px;
+            font-size: 0;
+            background: #1566BB;
+            transition: all 0.3s ease;
+            color: #ffffff;
+          }
+          .field input:focus {
+            background: #065CB7;
+            font-size: 13px;
+          }
+          .field input:focus span {
+            color:white;
+            font-size: 10px;
+          }
+          .field input:focus::-moz-selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input:focus::selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input.active {
+            background: #065CB7;
+            font-size: 10px;
+          }
+          .field input,
+          .field button {
+            position: absolute;
+            height: 30px;
+          }
+          .field button {
+            background: rgba(0, 0, 0, 0.3);
+            right: 0;
+            border: 0;
+            width: 30px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: width 0.3s ease ;
+            background: 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            color: #065CB7;
+            text-transform: uppercae;
+            pointer-events: none;
+          }
+          .field button.active {
+            color: #ffffff;
+            background: #639EDB;
+            opacity: 1;
+            pointer-events: auto;
+          }
+          .field button.active:hover {
+            background: #5E99D6;
+          }
+          .field button.full {
+            width: 100%;
+          }
+          .field input:focus + label {
+            font-size: 14px;
+            transform: translate(16px, 16px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field label {
+            position: absolute;
+            color: white;
+            transform: translate(16px, 20px);
+            transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s 0.1s ease;
+            font-size: 28px;
+          }
+          .field label.active {
+            font-size: 14px;
+            transform: translate(12px, 12px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field input:focus + label + button {
+            opacity: 1;
+          }
+         .contactss .icons{
+            padding: 14px 0px;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items:flex-start;
+            flex-direction: row;
+            justify-content:space-between;
+          
+          }
+        .icons  .icon{
+            font-size: 35px ;
+            padding: 5px;
+            font-weight: 500;
+            color: #5E99D6;
+            margin: 6px;
+            padding: 5px 0px;
+          }
+          .contactss h2{
+            font-size: 0.98rem;
+            font-weight: 600;
+            text-align: left;
+            color: #fcfcfc;
+            padding: 5px 0px;
+          }
+          .contactss{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 15px 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+          }
+}
+
+@media(min-width:768px) and (max-width:1200px){
+      a:hover, a:visited, a:hover, a:link {
+            color: rgba(255, 255, 255, 0.6);
+          }
+      .container{
+            
+            padding: 40px 100px 40px 100px;
+            display: grid;
+            max-height:100vh ;
+            max-width: 100%;
+            gap: 1rem;
+            place-content: center;
+            align-items: center;
+            grid-template-columns: 1fr  1fr;
+            background-color: rgb(5, 19, 43);
+      } 
+      .info{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            padding: 10px 0px;
+      }
+      .info h2{
+            font-size: 0.89rem;
+            text-align: center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .info p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .add{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 10px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+      
+      }
+      .add h2{
+            font-size: 0.9rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .add p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .contacts{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            
+      }
+      .contacts h2{
+            font-size: 0.9rem;
+            text-align:center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+            
+      }
+      .contacts p{
+            font-size: 0.78rem;
+            padding: 5px 0px;
+            text-align: center;
+            color: #5E99D6;
+      }
+      .contacts label{
+            font-size: 0.9rem;
+            text-align: center;
+      }
+      .register {
+            padding: 5px 0px;
+            margin: 0 auto 0;
+            display: flex;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;
+          }
+          span{
+            font-size: 10px;
+            color: transparent;
+          }
+          
+          .field {
+            width: 140px;
+            height: 30px;
+            position: relative;
+          }
+          .field input {
+            width: 100%;
+            border-radius: 6px;
+            height: 20px;
+            border: 0;
+           
+            padding: 10px 0 0 6px;
+            font-size: 0;
+            background: #1566BB;
+            transition: all 0.3s ease;
+            color: #ffffff;
+          }
+          .field input:focus {
+            background: #065CB7;
+            font-size: 13px;
+          }
+          .field input:focus span {
+            color:white;
+            font-size: 10px;
+          }
+          .field input:focus::-moz-selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input:focus::selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input.active {
+            background: #065CB7;
+            font-size: 10px;
+          }
+          .field input,
+          .field button {
+            position: absolute;
+            height: 30px;
+          }
+          .field button {
+            background: rgba(0, 0, 0, 0.3);
+            right: 0;
+            border: 0;
+            width: 30px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: width 0.3s ease ;
+            background: 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            color: #065CB7;
+            text-transform: uppercae;
+            pointer-events: none;
+          }
+          .field button.active {
+            color: #ffffff;
+            background: #639EDB;
+            opacity: 1;
+            pointer-events: auto;
+          }
+          .field button.active:hover {
+            background: #5E99D6;
+          }
+          .field button.full {
+            width: 100%;
+          }
+          .field input:focus + label {
+            font-size: 14px;
+            transform: translate(16px, 11px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field label {
+            position: absolute;
+            color: white;
+            transform: translate(16px, 20px);
+            transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s 0.1s ease;
+            font-size: 28px;
+          }
+          .field label.active {
+            font-size: 14px;
+            transform: translate(12px, 7px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field input:focus + label + button {
+            opacity: 1;
+          }
+         .contactss .icons{
+            padding: 14px 0px;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-between;
+          
+          }
+        .icons  .icon{
+            font-size: 35px ;
+            padding: 5px;
+            font-weight: 500;
+            color: #5E99D6;
+            margin: 6px;
+            padding: 5px 0px;
+          }
+          .contactss h2{
+            font-size: 0.98rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fcfcfc;
+            padding: 5px 0px;
+          }
+          .contactss{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 15px 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+}
+@media(min-width:576px) and (max-width:768px){
+      a:hover, a:visited, a:hover, a:link {
+            color: rgba(255, 255, 255, 0.6);
+          }
+      .container{
+            
+            padding: 40px 10px 40px 10px;
+            display: grid;
+            max-height:100vh ;
+            max-width: 100%;
+            gap: 1rem;
+            place-content: center;
+            align-items: center;
+            grid-template-columns: 1fr  1fr;
+            background-color: rgb(5, 19, 43);
+      } 
+      .info{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            padding: 10px 0px;
+      }
+      .info h2{
+            font-size: 0.89rem;
+            text-align: center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .info p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .add{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 10px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+      
+      }
+      .add h2{
+            font-size: 0.9rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .add p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .contacts{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            
+      }
+      .contacts h2{
+            font-size: 0.9rem;
+            text-align:center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+            
+      }
+      .contacts p{
+            font-size: 0.78rem;
+            padding: 5px 0px;
+            text-align: center;
+            color: #5E99D6;
+      }
+      .contacts label{
+            font-size: 0.9rem;
+            text-align: center;
+      }
+      .register {
+            padding: 5px 0px;
+            margin: 0 auto 0;
+            display: flex;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;
+          }
+          span{
+            font-size: 10px;
+            color: transparent;
+          }
+          
+          .field {
+            width: 140px;
+            height: 30px;
+            position: relative;
+          }
+          .field input {
+            width: 100%;
+            border-radius: 6px;
+            height: 20px;
+            border: 0;
+           
+            padding: 10px 0 0 6px;
+            font-size: 0;
+            background: #1566BB;
+            transition: all 0.3s ease;
+            color: #ffffff;
+          }
+          .field input:focus {
+            background: #065CB7;
+            font-size: 13px;
+          }
+          .field input:focus span {
+            color:white;
+            font-size: 10px;
+          }
+          .field input:focus::-moz-selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input:focus::selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input.active {
+            background: #065CB7;
+            font-size: 10px;
+          }
+          .field input,
+          .field button {
+            position: absolute;
+            height: 30px;
+          }
+          .field button {
+            background: rgba(0, 0, 0, 0.3);
+            right: 0;
+            border: 0;
+            width: 30px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: width 0.3s ease ;
+            background: 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            color: #065CB7;
+            text-transform: uppercae;
+            pointer-events: none;
+          }
+          .field button.active {
+            color: #ffffff;
+            background: #639EDB;
+            opacity: 1;
+            pointer-events: auto;
+          }
+          .field button.active:hover {
+            background: #5E99D6;
+          }
+          .field button.full {
+            width: 100%;
+          }
+          .field input:focus + label {
+            font-size: 14px;
+            transform: translate(16px, 11px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field label {
+            position: absolute;
+            color: white;
+            transform: translate(16px, 20px);
+            transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s 0.1s ease;
+            font-size: 28px;
+          }
+          .field label.active {
+            font-size: 14px;
+            transform: translate(12px, 7px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field input:focus + label + button {
+            opacity: 1;
+          }
+         .contactss .icons{
+            padding: 14px 0px;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-between;
+          
+          }
+        .icons  .icon{
+            font-size: 35px ;
+            padding: 5px;
+            font-weight: 500;
+            color: #5E99D6;
+            margin: 6px;
+            padding: 5px 0px;
+          }
+          .contactss h2{
+            font-size: 0.98rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fcfcfc;
+            padding: 5px 0px;
+          }
+          .contactss{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 15px 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+}
+
+@media(min-width:376px) and (max-width:576px){
+      a:hover, a:visited, a:hover, a:link {
+            color: rgba(255, 255, 255, 0.6);
+          }
+      .container{
+            
+            padding: 70px 10px 40px 10px;
+            display: grid;
+            max-height:100vh ;
+            max-width: 100%;
+            gap: 1rem;
+            place-content: center;
+            align-items: center;
+            grid-template-columns: 1fr  1fr;
+            background-color: rgb(5, 19, 43);
+      } 
+      .info{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            padding: 10px 0px;
+      }
+      .info h2{
+            font-size: 0.89rem;
+            text-align: center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .info p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .add{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 10px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+      
+      }
+      .add h2{
+            font-size: 0.9rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .add p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .contacts{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            
+      }
+      .contacts h2{
+            font-size: 0.9rem;
+            text-align:center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+            
+      }
+      .contacts p{
+            font-size: 0.78rem;
+            padding: 5px 0px;
+            text-align: center;
+            color: #5E99D6;
+      }
+      .contacts label{
+            font-size: 0.9rem;
+            text-align: center;
+      }
+      .register {
+            padding: 5px 0px;
+            margin: 0 auto 0;
+            display: flex;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;
+          }
+          span{
+            font-size: 10px;
+            color: transparent;
+          }
+          
+          .field {
+            width: 140px;
+            height: 30px;
+            position: relative;
+          }
+          .field input {
+            width: 100%;
+            border-radius: 6px;
+            height: 20px;
+            border: 0;
+           
+            padding: 10px 0 0 6px;
+            font-size: 0;
+            background: #1566BB;
+            transition: all 0.3s ease;
+            color: #ffffff;
+          }
+          .field input:focus {
+            background: #065CB7;
+            font-size: 13px;
+          }
+          .field input:focus span {
+            color:white;
+            font-size: 10px;
+          }
+          .field input:focus::-moz-selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input:focus::selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input.active {
+            background: #065CB7;
+            font-size: 10px;
+          }
+          .field input,
+          .field button {
+            position: absolute;
+            height: 30px;
+          }
+          .field button {
+            background: rgba(0, 0, 0, 0.3);
+            right: 0;
+            border: 0;
+            width: 30px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: width 0.3s ease ;
+            background: 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            color: #065CB7;
+            text-transform: uppercae;
+            pointer-events: none;
+          }
+          .field button.active {
+            color: #ffffff;
+            background: #639EDB;
+            opacity: 1;
+            pointer-events: auto;
+          }
+          .field button.active:hover {
+            background: #5E99D6;
+          }
+          .field button.full {
+            width: 100%;
+          }
+          .field input:focus + label {
+            font-size: 14px;
+            transform: translate(16px, 11px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field label {
+            position: absolute;
+            color: white;
+            transform: translate(16px, 20px);
+            transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s 0.1s ease;
+            font-size: 28px;
+          }
+          .field label.active {
+            font-size: 14px;
+            transform: translate(12px, 7px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field input:focus + label + button {
+            opacity: 1;
+          }
+         .contactss .icons{
+            padding: 14px 0px;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-between;
+          
+          }
+        .icons  .icon{
+            font-size: 35px ;
+            padding: 5px;
+            font-weight: 500;
+            color: #5E99D6;
+            margin: 6px;
+            padding: 5px 0px;
+          }
+          .contactss h2{
+            font-size: 0.98rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fcfcfc;
+            padding: 5px 0px;
+          }
+          .contactss{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 15px 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+}
+@media(min-width:278px) and (max-width:376px){
+      a:hover, a:visited, a:hover, a:link {
+            color: rgba(255, 255, 255, 0.6);
+          }
+      .container{
+            
+            padding: 70px 10px 40px 10px;
+            display: grid;
+            max-height:100vh ;
+            max-width: 100%;
+            gap: 1rem;
+            place-content: center;
+            align-items: center;
+            grid-template-columns: 1fr ;
+            background-color: rgb(5, 19, 43);
+            overflow-x: hidden;
+      } 
+      .info{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            padding: 10px 0px;
+      }
+      .info h2{
+            font-size: 0.89rem;
+            text-align: center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .info p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .add{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 10px 0px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+      
+      }
+      .add h2{
+            font-size: 0.9rem;
+            text-align: left;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+      }
+      .add p{
+            font-size: 0.78rem;
+            text-align: center;
+            padding: 5px 0px;
+            color: #5E99D6;
+
+      }
+      .contacts{
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            
+      }
+      .contacts h2{
+            font-size: 0.9rem;
+            text-align:center;
+            font-weight: 500;
+            color: #fcfcfc;
+            padding: 5px 0px;
+            
+      }
+      .contacts p{
+            font-size: 0.78rem;
+            padding: 5px 0px;
+            text-align: center;
+            color: #5E99D6;
+      }
+      .contacts label{
+            font-size: 0.9rem;
+            text-align: center;
+      }
+      .register {
+            padding: 5px 0px;
+            margin: 0 auto 0;
+            display: flex;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;
+          }
+          span{
+            font-size: 10px;
+            color: transparent;
+          }
+          
+          .field {
+            width: 140px;
+            height: 30px;
+            position: relative;
+          }
+          .field input {
+            width: 100%;
+            border-radius: 6px;
+            height: 20px;
+            border: 0;
+           
+            padding: 10px 0 0 6px;
+            font-size: 0;
+            background: #1566BB;
+            transition: all 0.3s ease;
+            color: #ffffff;
+          }
+          .field input:focus {
+            background: #065CB7;
+            font-size: 13px;
+          }
+          .field input:focus span {
+            color:white;
+            font-size: 10px;
+          }
+          .field input:focus::-moz-selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input:focus::selection {
+            background: rgba(188, 232, 255, 0.5);
+          }
+          .field input.active {
+            background: #065CB7;
+            font-size: 10px;
+          }
+          .field input,
+          .field button {
+            position: absolute;
+            height: 30px;
+          }
+          .field button {
+            background: rgba(0, 0, 0, 0.3);
+            right: 0;
+            border: 0;
+            width: 30px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: width 0.3s ease ;
+            background: 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            color: #065CB7;
+            text-transform: uppercae;
+            pointer-events: none;
+          }
+          .field button.active {
+            color: #ffffff;
+            background: #639EDB;
+            opacity: 1;
+            pointer-events: auto;
+          }
+          .field button.active:hover {
+            background: #5E99D6;
+          }
+          .field button.full {
+            width: 100%;
+          }
+          .field input:focus + label {
+            font-size: 14px;
+            transform: translate(16px, 11px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field label {
+            position: absolute;
+            color: white;
+            transform: translate(16px, 20px);
+            transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s 0.1s ease;
+            font-size: 28px;
+          }
+          .field label.active {
+            font-size: 14px;
+            transform: translate(12px, 7px);
+            color: rgba(255, 255, 255, 0.7);
+          }
+          .field input:focus + label + button {
+            opacity: 1;
+          }
+         .contactss .icons{
+            padding: 14px 0px;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-between;
+          
+          }
+        .icons  .icon{
+            font-size: 35px ;
+            padding: 5px;
+            font-weight: 500;
+            color: #5E99D6;
+            margin: 6px;
+            padding: 5px 0px;
+          }
+          .contactss h2{
+            font-size: 0.98rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fcfcfc;
+            padding: 5px 0px;
+          }
+          .contactss{
+            max-width: 100%;
+            max-height: 100%;
+            padding: 15px 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+}
